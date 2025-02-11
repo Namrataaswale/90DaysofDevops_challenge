@@ -2,10 +2,9 @@
 
 Welcome to Week 1 of the **90 Days of DevOps - 2025 Edition**! This week's focus is on **Networking**, a foundational skill for every DevOps professional. Let's dive into understanding key networking concepts, tools, and tasks essential for building a strong DevOps career.
 
-## Tasks
+## Task-1
 
 ### 1. **Understand OSI & TCP/IP Models**
-Research the OSI Model:
 
 The OSI model has 7 layers:
 
@@ -16,6 +15,10 @@ The OSI model has 7 layers:
 5.Session Layer (e.g., managing sessions between applications)
 6.Presentation Layer (e.g., encryption, data formatting)
 7.Application Layer (e.g., HTTP, FTP, DNS)
+
+---
+
+## Task-2
 
 ### 2. **Protocols and Ports for DevOps**
 In DevOps, understanding networking protocols and their associated port numbers is crucial for managing infrastructure, deploying applications, and ensuring secure communication. Below is a list of commonly used protocols, their port numbers, and their relevance to DevOps workflows.
@@ -80,10 +83,51 @@ In DevOps, understanding networking protocols and their associated port numbers 
   - Connects applications to MySQL databases for data storage and retrieval.
   - Used in database migrations, backups, and scaling.
     
+---  
+
+## Task-3
+
 ### 3. **AWS EC2 and Security Groups**
-- Launch an AWS EC2 instance (free tier is fine).
-- Learn about Security Groups, their rules, and their significance in securing cloud instances.
-- **Task:** Write a step-by-step guide or blog on how to create and configure Security Groups.
+- Step-by-Step Guide: Launching an AWS EC2 Instance and Configuring Security Groups
+- In this guide, you’ll learn how to:
+    - Launch an AWS EC2 instance (using the free tier).
+    - Create and configure Security Groups to secure your instance.
+      
+ ### Step 1: **Launch an AWS EC2 Instance**     
+
+1. Log in to AWS Management Console
+   - Go to the AWS Management Console.
+   - Sign in with your credentials.
+
+2. Navigate to EC2
+   - In the AWS Management Console, search for EC2 in the search bar.
+   - Click on EC2 under Services.
+
+3. Launch an Instance
+   - Click the Launch Instance button.
+
+    Follow these steps:
+
+ a. Choose an Amazon Machine Image (AMI)
+  - Select a free-tier eligible AMI (e.g., Amazon Linux 2 AMI or Ubuntu Server).
+
+ b. Choose an Instance Type
+  - Select the t2.micro instance type (free-tier eligible).
+  - Click Next: Configure Instance Details.
+
+ c. Configure Instance Details
+  - Leave the default settings for now.
+  - Click Next: Add Storage.
+
+ d. Add Storage
+   - Use the default storage settings (8 GB is free-tier eligible).
+   - Click Next: Add Tags.
+
+ e. Add Tags
+   - Add a tag if needed (e.g., Key: Name, Value: MyFirstInstance).
+   - Click Next: Configure Security Group.
+
+---
 
 ### 4. **Hands-On with Networking Commands**
 - Practice essential networking commands like:
