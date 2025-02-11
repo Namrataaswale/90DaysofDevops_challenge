@@ -129,45 +129,124 @@ In DevOps, understanding networking protocols and their associated port numbers 
 
 ---
 
-### 4. **Hands-On with Networking Commands**
+### Task-4. **Hands-On with Networking Commands**
+
+# Networking Commands Cheat Sheet
+
+---
+
+## 📡 ping (Check Connectivity)
+Tests network connectivity between your device and a remote host.
+
+**Usage:**
+```sh
+ping <hostname or IP>
+```
+**Example:**
+```sh
+ping google.com
+```
+🔹 Sends ICMP Echo Requests to check reachability and response time.
+
+---
+
+## 🌍 traceroute / tracert (Trace Packet Routes)
+Displays the path packets take to a destination.
+
+**Usage:**  
+**Linux/macOS:**
+```sh
+traceroute <hostname or IP>
+```
+**Windows:**
+```sh
+tracert <hostname or IP>
+```
+**Example:**
+```sh
+traceroute google.com
+```
+🔹 Shows each network hop and possible delays.
+
+---
+
+## 📊 netstat (Network Statistics)
+Displays network connections, listening ports, and statistics.
+
+**Usage:**
+```sh
+netstat -an
+```
+🔹 Shows all connections and listening ports.
+
+**Example (Linux/macOS):**
+```sh
+netstat -tulnp
+```
+🔹 Lists all listening ports with process details.
+
+**Example (Windows):**
+```sh
+netstat -ano
+```
+🔹 Displays active connections with process IDs.
+
+---
+
+## 🔗 curl (Make HTTP Requests)
+Transfers data from or to a server.
+
+**Usage:**
+```sh
+curl <URL>
+```
+**Example:**
+```sh
+curl -I https://example.com
+```
+🔹 Fetches HTTP headers of a website.
+
+**Example:**
+```sh
+curl -O https://example.com/file.zip
+```
+🔹 Downloads a file from a URL.
+
+---
+
+## 🌐 dig / nslookup (DNS Lookup)
+Queries DNS servers for domain name information.
+
+**Usage:**
+
+**dig (Linux/macOS):**
+```sh
+dig <domain>
+```
+**Example:**
+```sh
+dig google.com
+```
+🔹 Retrieves DNS records of the domain.
+
+**nslookup (Windows/Linux/macOS):**
+```sh
+nslookup <domain>
+```
+**Example:**
+```sh
+nslookup google.com
+```
 - Practice essential networking commands like:
-  - `ping` (check connectivity)
-  - `traceroute` / `tracert` (trace packet routes)
-  - `netstat` (network statistics)
-  - `curl` (make HTTP requests)
-  - `dig` / `nslookup` (DNS lookup)
-- **Task:** Create a cheat sheet or short guide explaining the purpose and usage of each command.
-
+  - ping: Check connectivity to a host (e.g., ping google.com).
+  - traceroute / tracert: Trace the route packets take to a host (e.g., traceroute google.com).
+  - netstat: Display network connections and statistics (e.g., netstat -tuln).
+  - curl: Make HTTP requests (e.g., curl https://google.com).
+  - dig / nslookup: Perform DNS lookups (e.g., dig google.com)
 
 ---
 
-## How to Submit
-- Create a LinkedIn post summarizing your Week 1 Networking Challenge experience.
-- Include the link to your blog, GitHub page, or README in the comments of your post.
-- **Tip:** Use an eye-catching image or flow diagram relevant to networking concepts for better reach and engagement.
-
----
-
-## Resources to Get Started
-- [OSI Model Explained (GeeksforGeeks)](https://www.geeksforgeeks.org/layers-of-osi-model/)
-- [Common Networking Protocols](https://en.wikipedia.org/wiki/List_of_network_protocols)
-- [AWS Free Tier](https://aws.amazon.com/free/)
-- [DNS Basics by Cloudflare](https://www.cloudflare.com/learning/dns/what-is-dns/)
-- [Docker Networking](https://docs.docker.com/network/)
-
-Feel free to explore these resources and expand your learning!
-
----
-
-### Example Submission Post:
-"Week 1 of #90DaysOfDevOps2025 completed! 🚀
-
-✅ Learned OSI & TCP/IP models
-✅ Explored AWS Security Groups
-✅ Practiced networking commands
-✅ Set up my first web server
-
-Check out my blog here: [Your Blog/GitHub Link]
+Check out my Github Link here: (https://github.com/Namrataaswale/90DaysofDevops_challenge/)
 
 #Networking #DevOps #90DaysOfDevOps"
 
