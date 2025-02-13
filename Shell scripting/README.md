@@ -86,10 +86,4 @@ Run the script with the following command-line options:
    ./user_management.sh -h
    ```
 
-## Notes
-- User accounts with UID >= 1000 are considered normal users.
-- The script will exit gracefully with an appropriate message if the username does not exist during deletion or password reset.
-
-## Author
-This script was created as part of the **Week 3 Challenge** in the 90 Days of DevOps program.
 
