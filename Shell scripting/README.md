@@ -2,7 +2,18 @@
 # User Account Management Script
 
 ## Overview
-This Bash script allows administrators to manage user accounts on a Linux system. The script provides options for creating, deleting, resetting passwords, and listing user accounts.
+As part of Week 3 Challenge 1 in DevOps - Zero to Hero (Junoon Batch 9), I built a powerful Bash script to streamline user account management on Linux systems. This script simplifies complex administrative tasks with just a few commands:
+This Bash script allows administrators to manage user accounts on a Linux system. The script provides options for creating, deleting, resetting passwords, and listing user accounts
+
+✅ Challenge-1 Completed 
+
+✅ Create Users: Easily add new users with secure passwords.
+
+❌ Delete Users: Safely remove user accounts when they’re no longer needed.
+
+🔑 Reset Passwords: Quickly update passwords for existing users.
+
+📋 List All Users: View all user accounts along with their UIDs in a clean, organized format
 
 ## Features
 - **Create User Account (-c or --create):**
