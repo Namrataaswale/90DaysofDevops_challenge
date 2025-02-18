@@ -1,14 +1,6 @@
 # Week 4: Git and GitHub Challenge
 
-- **Git Basics:** `git init`, `git add`, `git commit`
-- **Repository Management:** `git clone`, forking a repository, and understanding how a GitHub repo is made
-- **Branching:** Creating branches (`git branch`), switching between branches (`git switch` / `git checkout`), and viewing commit history (`git log`)
-- **Authentication:** Pushing and pulling using a Personal Access Token (PAT)
-- **Critical Thinking:** Explaining why branching strategies are important in collaborative development
-
----
-
-🚀 Just completed the Week 4 Git and GitHub Challenge as part of the #90DaysOfDevOps journey!
+ 🚀 Just completed the Week 4 Git and GitHub Challenge as part of the #90DaysOfDevOps journey!
 
 In this challenge, I practiced essential Git commands, forked and cloned repositories, managed branches, and even simulated and resolved merge conflicts.
 
@@ -21,6 +13,14 @@ Key takeaways:
 - Hands-on experience with advanced Git workflows.
 
 - Feeling more confident in my Git skills and ready to tackle more DevOps challenges! 💻
+
+---
+
+- **Git Basics:** `git init`, `git add`, `git commit`
+- **Repository Management:** `git clone`, forking a repository, and understanding how a GitHub repo is made
+- **Branching:** Creating branches (`git branch`), switching between branches (`git switch` / `git checkout`), and viewing commit history (`git log`)
+- **Authentication:** Pushing and pulling using a Personal Access Token (PAT)
+- **Critical Thinking:** Explaining why branching strategies are important in collaborative development
 
 ---
 
