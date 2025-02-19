@@ -59,6 +59,8 @@ This document provides a comparison between **Virtualization** and **Containeriz
 | **Performance**     | More resource-intensive due to separate OS instances. | Faster and more efficient as it avoids OS duplication. |
 | **Security**        | Strong isolation between VMs since each has its own OS. | Less isolated than VMs but still secure when configured properly. |
 
+
+
 ## Why Containerization is Preferred for Microservices & CI/CD?
 
 ### 🚀 1. Microservices Architecture
@@ -76,6 +78,35 @@ This document provides a comparison between **Virtualization** and **Containeriz
 ### 🚀 4. Efficient Scaling & Resource Optimization
 - Containers consume fewer resources, allowing more apps to run on the same hardware.
 - Ideal for cloud environments and Kubernetes orchestration.
+
+## Challenge Tasks
+
+### Task 3: **Docker Terminologies and Components**
+
+### Key Docker Terms:
+
+1. **Image**: A lightweight, standalone, and executable package that includes everything needed to run a piece of software, including the code, runtime, libraries, and dependencies.
+2. **Container**: A running instance of a Docker image that provides an isolated environment for applications.
+3. **Dockerfile**: A text document that contains instructions to automate the building of a Docker image.
+4. **Volume**: A persistent storage mechanism used to store data outside of containers to ensure data persistence.
+5. **Network**: A virtual network that allows containers to communicate with each other and with external systems securely.
+
+### Main Docker Components:
+
+1. **Docker Engine**: The core part of Docker that enables containerization. It consists of a server (daemon), a REST API, and a CLI.
+2. **Docker CLI**: A command-line tool that allows users to interact with the Docker daemon and manage images, containers, networks, and volumes.
+3. **Docker Hub**: A cloud-based registry for storing and sharing Docker images.
+4. **Docker Compose**: A tool that allows defining and running multi-container Docker applications using a YAML file.
+5. **Docker Swarm**: A native clustering and orchestration tool for managing multiple Docker nodes.
+
+### Interaction Between Components:
+- The **Docker Engine** pulls images from **Docker Hub**.
+- The **CLI** sends commands to the **Docker daemon** to create, manage, and run containers.
+- **Volumes** store data persistently, ensuring data is not lost when containers stop.
+- **Networks** enable communication between containers and external services.
+- **Docker Compose** and **Docker Swarm** help orchestrate multi-container applications efficiently.
+
+
 
 ## Conclusion 🎯
 Containerization (Docker) is **lighter, faster, and more scalable** than virtualization, making it the **best choice for modern DevOps workflows, microservices, and CI/CD pipelines**. 🚀🐳
