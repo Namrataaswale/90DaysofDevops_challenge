@@ -70,5 +70,57 @@ Docker has become the backbone of modern DevOps practices by making applications
 
 **Conclusion:** Containerization offers **better efficiency, scalability, and automation**, making it the preferred approach for modern cloud-native applications. 🚀
 
+## Task 2: Create a Dockerfile for a Sample Project
+
+### 1. Select or Create a Sample Application  
+Choose a simple application (e.g., a basic Node.js, Python, or Java app that prints "Hello, Docker!" or serves a simple web page).
+
+### 2. Write a Dockerfile  
+Create a `Dockerfile` that defines how to build an image for your application. Below is an example of a simple Node.js application:
+
+#### Sample `Dockerfile` for a Node.js App:
+```dockerfile
+# Use an official Node.js runtime as the base image
+FROM node:18-alpine
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY package.json .
+RUN npm install
+
+# Copy application files
+COPY . .
+
+# Expose the application port
+EXPOSE 3000
+
+# Command to run the application
+CMD ["node", "server.js"]
+```
+
+### 3. Build and Run Your Docker Image  
+#### Build the Docker image:
+```bash
+docker build -t <your-username>/sample-app:latest .
+```
+
+#### Run the container:
+```bash
+docker run -d -p 8080:3000 <your-username>/sample-app:latest
+```
+
+#### Verify the running container:
+```bash
+docker ps
+```
+
+#### Check container logs:
+```bash
+docker logs <container_id>
+```
+
+This completes Task 2! 🎉
 
 
